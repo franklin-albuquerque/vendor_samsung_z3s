@@ -12,13 +12,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/x1slte/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/x1slte/proprietary/vendor/etc/nfc/sec_s3nsen4_hwreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nsen4_hwreg.bin \
     vendor/samsung/x1slte/proprietary/vendor/etc/nfc/sec_s3nsen4_swreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nsen4_swreg.bin \
+    vendor/samsung/x1slte/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
     vendor/samsung/x1slte/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APDV_AUDIO_SLSI.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/APTV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APTV_AUDIO_SLSI.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/bcm4375B1_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4375B1_murata.hcd \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/bcm4375B1_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4375B1_semco.hcd \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/bcm4375B1_semco_sem.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4375B1_semco_sem.hcd \
     vendor/samsung/x1slte/proprietary/vendor/firmware/bcmdhd_clm.blob:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_clm.blob \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/bcmdhd_mfg.bin_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_mfg.bin_b1 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/bcmdhd_mon.bin_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_mon.bin_b1 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/bcmdhd_sta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_sta.bin_b1 \
     vendor/samsung/x1slte/proprietary/vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-bot-dsp1-spk-prot.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin \
@@ -29,8 +36,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/x1slte/proprietary/vendor/firmware/is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_lib.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/is_mcu_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_mcu_fw.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/is_rta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_rta.bin \
+vendor/samsung/x1slte/proprietary/vendor/firmware/nfc/sec_s3nsen4_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nsen4_firmware.bin \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_1rh_es11_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es11_b0 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_1rh_es12_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es12_b0 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_1rh_es13_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es13_b0 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_1rh_es32_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es32_b0 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_1rh_es41_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es41_b1 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_1rh_es42_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es42_b1 \
     vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_1rh_es43_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es43_b1 \
     vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_CS01_semco_b1:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_CS01_semco_b1 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_ES00_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES00_semco_b0 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_ES01_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES01_semco_b0 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_ES02_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES02_semco_b0 \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_ES03_semco_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES03_semco_b0 \
     vendor/samsung/x1slte/proprietary/vendor/firmware/setfile_2la.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2la.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/setfile_2ld.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2ld.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/setfile_3j1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3j1.bin \
@@ -49,8 +67,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/x1slte/proprietary/vendor/tee/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-53626f786476
 
 PRODUCT_PACKAGES += \
+    lib_SamsungRec_08020 \
+    lib_lvacfs \
     librecordalive \
     libswdap \
+    vendor.samsung.hardware.bluetooth.a2dp@1.0 \
     camera.exynos990 \
     libexynoscamera3 \
     libexynoscamera_bayergdc_plugin \
