@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/x1slte/proprietary/vendor/firmware/is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_lib.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/is_mcu_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_mcu_fw.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/is_rta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_rta.bin \
-vendor/samsung/x1slte/proprietary/vendor/firmware/nfc/sec_s3nsen4_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nsen4_firmware.bin \
+    vendor/samsung/x1slte/proprietary/vendor/firmware/nfc/sec_s3nsen4_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nsen4_firmware.bin \
     vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_1rh_es11_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es11_b0 \
     vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_1rh_es12_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es12_b0 \
     vendor/samsung/x1slte/proprietary/vendor/firmware/nvram.txt_1rh_es13_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_1rh_es13_b0 \
